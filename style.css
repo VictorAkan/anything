@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.navbar-brand
+{
+    color: white;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.pouch {
+    background-image: linear-gradient(to bottom, brown, rgb(158, 79, 42), rgb(63, 4, 63));
+    height: 200px;
+    width: 50px;
+}
+.remix {
+    background-color: white;
+}
+.crazy {
+    background-color: rgb(224, 221, 221);
+}
+.flex {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.max {
+    background-color: white;
+    border: 1px solid blue;
+    border-right: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 1259px;
+}
